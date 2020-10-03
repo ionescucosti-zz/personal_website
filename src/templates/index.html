@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section> <!--rand 2-->
+        <div class="container">           
+            <div class="row">
+                <div class="col-sm-6" id="sleft">
+                    {% load static %}
+                    <img onmouseover="color(this)" onmouseout="noColor(this)" src='{% static "img/image.jpg" %}' id="portrait" class="img-circle" alt="My Portrait"
+                    width="320px" height="320px">
+                </div>
+
+                <div class="col-sm-6" id="sright">
+                    <div>
+                        <p>Hello,<p>
+                        <p id="p2">a bit about me:<p>
+                    </div>
+                    <div>
+                    <div class="btn">
+                        <div id="btn1" onmouseover="active1(this)" onmouseout="inactive1(this)">
+                            <a href="resume.html">MY RESUME</a>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <div id="btn2" onmouseover="active2(this)" onmouseout="inactive2(this)">
+                            <a href="skills.html">MY SKILLS</a>
+                        </div>
+                    </div>
+                    <div  class="btn">
+                        <div id="btn3" onmouseover="active3(this)" onmouseout="inactive3(this)">
+                            <a href="projects.html">MY WORK</a>
+                        </div>
+                    </div >
+                    </div>
+                    <div class="about">
+                        <pre>I am a beginner Web Developer. </br>This website represents my Portfolio and shows my actual skills.</br>Go ahead and take a tour!</pre>
+                    </div>
+                </div>
+            </div>        
+        </div>
+    </section>
+        <footer>
+            <div class="container"> <!--rand 3-->
+                <div class="row">
+                    <div class="panel-footer">
+                           <i class="glyphicon glyphicon-phone-alt"> Phone: (+40) 743.926.444</i>
+                           <i class="glyphicon glyphicon-envelope"> E-mail: ionescucosti@icloud.com</i>
+                           <i class="glyphicon glyphicon-copyright-mark" id="year"> by Ionescu Constantin</i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+{% endblock content %}

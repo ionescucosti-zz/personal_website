@@ -1,0 +1,128 @@
+/* primul rand*/
+body{
+    background-color: #d3d8e8;
+}
+
+nav{
+    margin-bottom: 1%;
+}
+
+#navleft{
+    text-align:center; 
+    padding:0px; 
+    margin-top:2%;
+    color:#39383F; 
+    font-family:Segoe Script;
+-webkit-font-family:Segoe Script;
+-moz-font-family:Segoe Script;
+}
+
+#navleft h1 {
+    font-size:40px;
+}
+
+#navright {
+    text-align:center; 
+    margin-top: 5%;
+}
+
+#navright ul{
+    padding:1%; margin-left:3%;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color:#3b5998;
+}
+/* al doilea rand*/
+#portrait {
+    margin-left:25%; margin-top:5%; -webkit-filter: grayscale(100%);
+}
+
+#sright p{
+    font-size: 45px; 
+    font-family:News706 BT; 
+    padding:3px; 
+    margin:5px;
+    color:#39383F; 
+    text-align:left;
+}
+
+#sright #p2{
+    font-size: 25px;
+}
+
+#sright .btn{
+    width:20%;display:inline-block; margin:2%; padding:2%;
+}
+
+ .btn #btn1{
+    width: 115%; 
+    padding-bottom:95%; 
+    border-radius: 50%; 
+    border:10px solid #2ED190;
+    background:#2ED190;
+}
+
+#sright .btn #btn2{
+    width: 115%; 
+    padding-bottom: 95%;
+    border-radius: 50%;	
+    border:10px solid #D12E6F; 
+    background: #D12E6F;
+}
+#sright .btn #btn3{
+    width: 115%; 
+    padding-bottom:95%;
+    border-radius: 50%;	
+    border:10px solid #C1D12E;
+    background: #C1D12E;
+}
+
+#sright .btn a{
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em; 
+    text-align:center; 
+    color:#FFFFFF; 
+    font-family:Verdana;
+    font-size:0.9em;
+    text-decoration:none;
+}
+.about{
+    width:90%;
+}
+
+
+/* al treilea rand*/
+footer .panel-footer{
+    margin:1%; 
+    background-color:#3b5998; 
+    color:white;
+}
+
+footer .panel-footer i{
+    padding:1%;
+    font-size:20px; 
+    width:33%
+}
+
+/* Resume*/
+#clist{
+    list-style: none;
+}
+
+.col-md-5 h2{
+    margin-left:25%;
+    margin-bottom: 5%;
+}
+
+#contact .col-md-7 form{
+    margin-top: 5%;    
+}
+
+.col-md-3 img{
+    width:100%;
+}
