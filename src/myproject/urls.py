@@ -15,12 +15,16 @@ Including another URL conf
 """
 from django.contrib import admin
 from django.urls import path
-from products.views import home_view, resume_view, projects_view, contact_view
+from products.views import home_view, resume_view, projects_view, contact_view, single_page_view
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', home_view, name='home'),
+    path('admin/', admin.site.urls),
     path('resume', resume_view),
     path('projects', projects_view),
+    path('indexsass', single_page_view),
     path('contact', contact_view),
-    path('admin/', admin.site.urls),
 ]
+
+urlpatterns += staticfiles_urlpatterns()

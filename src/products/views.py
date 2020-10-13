@@ -7,7 +7,7 @@ def home_view(request, *args, **kwargs):
     # print(request)
     # print(request.user)
     # return HttpResponse("<hi1>Home Page</h1>")
-    return render(request, "index.html",{})
+    return render(request, "index.html", {})
 
 
 def resume_view(request, *args, **kwargs):
@@ -20,3 +20,15 @@ def projects_view(request, *args, **kwargs):
 
 def contact_view(request, *args, **kwargs):
     return render(request, "contact.html", {})
+
+
+def skills_view(request, *args, **kwargs):
+    return render(request, "skills.html", {})
+
+
+def single_page_view(request, *args, **kwargs):
+    return render(request, "indexsass.html", {})
+
+
+def resume_view(request, *args, **kwargs):
+    return render(request, "skills.html", {})

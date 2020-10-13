@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
+{% load static %}
     <section> <!--rand 2-->
         <div class="container">           
             <div class="row">
                 <div class="col-sm-6" id="sleft">
-                    {% load static %}
-                    <img onmouseover="color(this)" onmouseout="noColor(this)" src='{% static "img/image.jpg" %}' id="portrait" class="img-circle" alt="My Portrait"
+                    <img onmouseover="color(this)" onmouseout="noColor(this)" src="{% static 'img/image.jpg' %}" id="portrait" class="img-circle" alt="My Portrait"
                     width="320px" height="320px">
                 </div>
 
@@ -28,12 +28,12 @@
                     </div>
                     <div  class="btn">
                         <div id="btn3" onmouseover="active3(this)" onmouseout="inactive3(this)">
-                            <a href="projects.html">MY WORK</a>
+                            <a href="projects">MY WORK</a>
                         </div>
                     </div >
                     </div>
                     <div class="about">
-                        <pre>I am a beginner Web Developer. </br>This website represents my Portfolio and shows my actual skills.</br>Go ahead and take a tour!</pre>
+                        <pre>I am a Python Developer. </br>This website represents my Portfolio and shows my actual skills.</br>Go ahead and take a tour!</pre>
                     </div>
                 </div>
             </div>        

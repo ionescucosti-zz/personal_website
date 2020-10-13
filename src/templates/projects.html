@@ -1,17 +1,18 @@
 {% extends "base.html" %}
 
+{% load static %}
 {% block content %}
     <section class="container"> <!--rand 2--> 
         <div class="row">
             <div class="col-md-3">
-                <a href="indexmpower.html">Simple Bootstrap Website</a>
+                <a href="indexmpower.html">Bootstrap Website</a>
                 </br>
-                <img src="img/project1.png">
+                <img src="{%  static  'img/project1.png'  %}">
             </div>
             <div class="col-md-3">
-                <a href="indexsass.html">Using SASS Website</a>
+                <a href="indexsass">Single Page Website</a>
                 </br>
-                <img src="img/project2.png">
+                <img src="{%  static  'img/project2.png'  %}">
             </div>            
         </div>
     </section>
